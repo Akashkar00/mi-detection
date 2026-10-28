@@ -1,0 +1,14 @@
+# environments (kept off the exFAT drive; see README)
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# derived data: rebuildable from the raw dataset
+cache/
+runs/*/checkpoint*
+runs/*/*.pt
+
+# macOS / exFAT clutter
+._*
+.DS_Store
