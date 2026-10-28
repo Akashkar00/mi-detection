@@ -15,8 +15,10 @@ One section per phase: what was done, the numbers, and anything that changed fro
 - `src/verify_data.py`: SHA256 check against the dataset's own `SHA256SUMS.txt`.
 - `tests/test_setup.py`: 6 tests (dataset present, outputs never inside raw data, split complete and disjoint, profiles, seeding repeats, device matmul). **6/6 pass.**
 
-**Raw data integrity:** _pending (checksum run in progress)_
+**Raw data integrity:** all **87,203** files match the dataset's `SHA256SUMS.txt` (0 missing, 0 mismatched; 96 s). Summary in `results/data_checksums.json`.
 
 **Open items:**
 - Windows CUDA build of torch: needs the GPU model / driver version of the training PC.
-- git repo initialised; no commit made yet (waiting for the user's go-ahead).
+- GitHub repo: private `Akashkar00/mi-detection` (push pending; see below).
+
+**Gate:** ✅ on this Mac (tests 6/6, MPS works, data verified). The Windows CUDA check stays open until the GPU is known.
