@@ -1,0 +1,60 @@
+{
+ "name": "F_r2",
+ "run": "F_r2_s0",
+ "seed": 42,
+ "val_auroc": 0.9499675824621119,
+ "epochs": 8,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 0.501737991004613,
+   "val_auroc": 0.9119803063457331
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.35128212427440597,
+   "val_auroc": 0.938481643569171
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.315254088046936,
+   "val_auroc": 0.9393994651106249
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.3012318966916333,
+   "val_auroc": 0.9443168003890104
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2926870533304439,
+   "val_auroc": 0.9483608882405381
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.28293406806413085,
+   "val_auroc": 0.9470013777453602
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2832430808828489,
+   "val_auroc": 0.9499675824621119
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.2740039620526049,
+   "val_auroc": 0.949738633600778
+  }
+ ],
+ "cfg": {
+  "lr": 0.001,
+  "wd": 0.0,
+  "bs": 64,
+  "dropout": 0.0,
+  "profile": "paper",
+  "seq_len": null,
+  "img_profile": null,
+  "augment": true,
+  "pos_weight": null
+ }
+}

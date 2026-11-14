@@ -3,7 +3,11 @@ name = "mi-detection"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
     "matplotlib>=3.11.2",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
     "numpy>=2.5.4",
     "opencv-python-headless>=5.0.0.93",
     "pandas>=3.1.0",
@@ -11,6 +15,7 @@ dependencies = [
     "pyarrow>=26.0.0",
     "scikit-learn>=1.9.1",
     "scipy>=1.18.1",
+    "seaborn>=0.13.2",
     "torch>=2.14.1",
     "tqdm>=4.70.1",
     "wfdb>=4.3.1",
@@ -20,3 +25,12 @@ dependencies = [
 dev = [
     "pytest>=9.2.0",
 ]
+
+# Windows: CUDA build of torch (RTX 3060, driver CUDA 13.x). macOS/Linux keep PyPI torch.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130", marker = "sys_platform == 'win32'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true

@@ -1,0 +1,75 @@
+{
+ "name": "B2_resnet1d",
+ "run": "tune_B2_resnet1d_lr0.0003",
+ "seed": 42,
+ "val_auroc": 0.9715941324256423,
+ "epochs": 11,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 0.27456468100638876,
+   "val_auroc": 0.9613704514142151
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.22143596701030374,
+   "val_auroc": 0.9691385039306266
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.21036718733194587,
+   "val_auroc": 0.9704655968879163
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.18550555469287774,
+   "val_auroc": 0.9686846584001945
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.16775958563903587,
+   "val_auroc": 0.9655766269551828
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.153652660532019,
+   "val_auroc": 0.9715941324256423
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.13270509240960032,
+   "val_auroc": 0.9642961342086068
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.10938867540413655,
+   "val_auroc": 0.9703035091984764
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.09626758728394962,
+   "val_auroc": 0.9652058513655888
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.08210611811112545,
+   "val_auroc": 0.9690432774130805
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.061414107790585745,
+   "val_auroc": 0.9521436096928437
+  }
+ ],
+ "cfg": {
+  "lr": 0.0003,
+  "wd": 0.0,
+  "bs": 32,
+  "dropout": 0.0,
+  "profile": "ours",
+  "seq_len": null,
+  "img_profile": null,
+  "augment": true,
+  "pos_weight": null
+ }
+}

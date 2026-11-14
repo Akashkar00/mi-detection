@@ -1,0 +1,110 @@
+{
+ "name": "B1_lstm",
+ "run": "final_B1_lstm_s2",
+ "seed": 44,
+ "val_auroc": 0.9532093362509118,
+ "epochs": 18,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 0.6036315403303003,
+   "val_auroc": 0.812194059486182
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.6608120391955988,
+   "val_auroc": 0.7764547370127239
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.43706814292129154,
+   "val_auroc": 0.9308533916849013
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.31487252506695274,
+   "val_auroc": 0.9385444525488289
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2951994163816469,
+   "val_auroc": 0.9420779641786206
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.28119605462700054,
+   "val_auroc": 0.9470783693978442
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.2688958583733974,
+   "val_auroc": 0.9471452305697382
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.2629899323817437,
+   "val_auroc": 0.9465252451576303
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.253133999298206,
+   "val_auroc": 0.9445639841154064
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.2435102119767467,
+   "val_auroc": 0.949337466569414
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.23654136467341033,
+   "val_auroc": 0.9521192965394278
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.22685382181960936,
+   "val_auroc": 0.9466002107139962
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.21890727765095294,
+   "val_auroc": 0.9532093362509118
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.21438386989653244,
+   "val_auroc": 0.9455689277899344
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.20380954745713947,
+   "val_auroc": 0.9453784747548424
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.19089244553029813,
+   "val_auroc": 0.9447686198233245
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.18514864975235545,
+   "val_auroc": 0.9436177972283005
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.1725960467116514,
+   "val_auroc": 0.935268255126023
+  }
+ ],
+ "cfg": {
+  "lr": 0.003,
+  "wd": 0.0,
+  "bs": 32,
+  "dropout": 0.0,
+  "profile": "paper",
+  "seq_len": null,
+  "img_profile": null,
+  "augment": true,
+  "pos_weight": null
+ }
+}

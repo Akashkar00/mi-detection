@@ -1,0 +1,110 @@
+{
+ "name": "B2_resnet1d",
+ "run": "final_B2_resnet1d_s1",
+ "seed": 43,
+ "val_auroc": 0.974704189966772,
+ "epochs": 18,
+ "history": [
+  {
+   "epoch": 0,
+   "train_loss": 0.30428948482000734,
+   "val_auroc": 0.9582664721614395
+  },
+  {
+   "epoch": 1,
+   "train_loss": 0.2571058534258841,
+   "val_auroc": 0.9619863846340871
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.2294022365314705,
+   "val_auroc": 0.9658825674690008
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.2130198376126635,
+   "val_auroc": 0.9686603452467785
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.2089023015684155,
+   "val_auroc": 0.9680768295647946
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.19317573385873774,
+   "val_auroc": 0.9677627846665046
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.18409967693275683,
+   "val_auroc": 0.9729556690169382
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.17458511428688586,
+   "val_auroc": 0.9691121646810924
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.17021040291983952,
+   "val_auroc": 0.9743921711646
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.16306660077264562,
+   "val_auroc": 0.9703845530431964
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.15016855198182866,
+   "val_auroc": 0.9701961261042223
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.14393076111375516,
+   "val_auroc": 0.9730063214198882
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.13609772700078515,
+   "val_auroc": 0.974704189966772
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.12395882069028566,
+   "val_auroc": 0.9687859632060944
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.1227350715843336,
+   "val_auroc": 0.9699793338195963
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.11579283985248881,
+   "val_auroc": 0.9717866115568522
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.09857667192003851,
+   "val_auroc": 0.9726902504254801
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.0928488727937855,
+   "val_auroc": 0.9710166950320124
+  }
+ ],
+ "cfg": {
+  "lr": 0.003,
+  "wd": 0.0,
+  "bs": 32,
+  "dropout": 0.0,
+  "profile": "ours",
+  "seq_len": null,
+  "img_profile": null,
+  "augment": true,
+  "pos_weight": null
+ }
+}
